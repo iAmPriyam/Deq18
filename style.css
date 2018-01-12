@@ -1797,6 +1797,17 @@ button:focus {
 		width: 100%;
 		height: 100%;
 	}
+	.secretaries{
+		width: 100%;
+	}
+
+	.secretaries{
+		width: 100%;
+	}
+	.secretaries .mu-single-speakers img{
+		height: 180px;
+		width: 180px;
+	}
 
 	.mu-developer-area {
 		padding: 5% 5%;
