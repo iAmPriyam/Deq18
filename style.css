@@ -1,24 +1,4 @@
 
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER	
-#MENU 
-#ABOUT US
-#VIDEO
-#SCHEDULE
-#SPEAKERS
-#VENUE
-#PRICING PLANS
-#REGISTER FORM
-#FAQ
-#OUR
-#CONTACT US
-#FOOTER
-#RESPONSIVE STYLE
-*/
-
-
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
@@ -933,6 +913,9 @@ button:focus {
 .secretaries{
 	width: 50%;
 	float: left;
+}
+.secretaries img{
+	max-width:250px;
 }
 .mu-speakers-area {	
 	display: inline;
