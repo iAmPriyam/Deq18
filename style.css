@@ -1286,6 +1286,7 @@ button:focus {
 }
 
 .mu-reg-submit-btn {
+	padding-bottom: 50px;
 	background-color: transparent;
 	border: 2px solid #fff;
 	color: #fff;
@@ -1327,8 +1328,32 @@ button:focus {
 	color: #ff0000;
 }
 
+.mu-pr{
+	float: right;
+	text-align: left;
+	padding-top: 40px;
+	position: relative;
+	right: 50%;
+}
+.mu-pr-details{
+	right: -50%;
+	position: relative;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
 
+}
+.mu-pr-details h1{
+	color: #fff;
+	font-family: "comfortaaregular";
+	font-size: 20px;
+}
 
+.mu-pr-details h2{
+	color: #f00;
+	font-family: "comfortaaregular";
+	font-size: 18px;
+}
 /*--------------------*/
 /* SPONSORS */
 /*--------------------*/
