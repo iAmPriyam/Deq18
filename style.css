@@ -578,7 +578,7 @@ button:focus {
 }
 
 .mu-title {
-	color: #dddddd;
+	color: #f0f0f0;
 	margin-bottom: 15px;	
 	padding: 0;
 	z-index: 10;
@@ -588,7 +588,7 @@ button:focus {
 }
 
 .mu-content {
-	color: #ff8f8f;
+	color: #ff0202;
 	margin-bottom: 15px;
 	padding: 0;
 	z-index: 10;
@@ -834,7 +834,7 @@ button:focus {
 
 
 .mu-event-timeline ul li .mu-single-event {
-	background-color: #303030;
+	background-color: #242424;
 	color: white;
 	position: relative;
 	top: 0;
