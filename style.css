@@ -1677,7 +1677,7 @@ button:focus {
 
 	}
 
-	#panache,#Dropping,#wtm,#dt,#stageCraft{
+	#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM{
 		max-width:110px;
 		margin-left: 220px;
 		margin-top: -10px;
@@ -3078,6 +3078,13 @@ img::-moz-selection {
 	margin-top: -20px;
 	display: inline;
 }
+#WTM{
+	max-width: 180px;
+	position : absolute;
+	margin-left: -220px;
+	margin-top: -20px;
+	display: inline;
+}
 .pro{
 	border-radius: 8%;
 	transition: all .3s ease-in-out;
@@ -3398,7 +3405,7 @@ section{
 
 	}
 
-	#panache,#Dropping,#wtm,#dt,#stageCraft{
+	#panache,#Dropping,#wtm,#dt,#stageCraft#WTM{
 		max-width:110px;
 		margin-left: 220px;
 		margin-top: -10px;
