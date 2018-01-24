@@ -852,6 +852,9 @@ button:focus {
 	left: -450px;
 	text-align: right;
 }
+.mu-event-timeline ul li:nth-child(2n+1) .mu-event-rules {
+	text-align: left;
+}
 
 .mu-event-timeline ul li .mu-single-event img {
 	height: 80px;
@@ -904,6 +907,40 @@ button:focus {
 
 .mu-content{
 	color: #aa2200;
+}
+.mu-rule-button,.mu-rule-close-button{
+	margin-top: 5%;
+	vertical-align: middle;
+	height: 35px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: transparent;
+	font-color: #f2f2f2;
+	font-size: 20px;
+	font-family: "neouthin";
+	width: auto;
+	-webkit-transition: all .65s;
+    -moz-transition: all .65s;
+    transition: all .65s;
+	}
+
+.mu-rule-button:hover, 
+.mu-rule-button:focus,
+.mu-rule-close-button:hover,
+.mu-rule-close-button:focus{
+	background-color: #ff0000;
+	border-radius: 5px;
+}
+.mu-rule-content{
+	font-family: "comfortaaregular";
+	color: #ff0202;
+}
+
+.mu-rule-content h1{
+	font-family: "latothin";
+	font-size: 28px;
+	color: #ffffff;
+
 }
 /*--------------------*/
 /* SPEAKERS */
@@ -1596,7 +1633,10 @@ button:focus {
 	}
 
 	.mu-developer-area {
-		padding: 16% 0;
+		padding: 0;
+	}
+	.mu-developer-area h1{
+		margin-top: 10%;
 	}
 
 	.mu-developer-btn {
@@ -1605,8 +1645,8 @@ button:focus {
 		margin-top: 0;
 	}	
 	.mu-developer-close-btn{
-		right: 5%;
-		top: 30px;
+		right: 2%;
+		top: 2%;
 	}
 }
 
@@ -1776,6 +1816,9 @@ button:focus {
 		height: 40px;
 		line-height: 35px;
 		width: 40px;
+	}
+	.mu-pr-details h1,h2{
+		align-content: left;
 	}
 
 		
@@ -1958,6 +2001,7 @@ button:focus {
 
 	.mu-event-timeline ul li {
 		margin-left: 5%;
+
 	}
 
 	.mu-event-timeline ul li .mu-single-event,
@@ -1986,7 +2030,7 @@ button:focus {
 	}
 
 	 .mu-single-event span{
-		display : none;
+		margin-right: 7%;
 
 	}
 	.mu-title{
@@ -3101,7 +3145,6 @@ img::-moz-selection {
 	border-radius: 8%;
 	transition: all .3s ease-in-out;
 	z-index: 2;
-
 }
 
 .pro:hover { transform: scale(1.2);
@@ -3406,24 +3449,23 @@ section{
 	}
 
 	 .mu-single-event span{
-		display : none;
 
 	}
 
-	#verve,#raga,#Sync,#nukkad,#survivor{
+	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM{
 		max-width: 110px;
-		margin-left: 150px;
+		margin-left: 180px;
 		margin-top: -20px;
 
 	}
-
+/*
 	#panache,#Dropping,#wtm,#dt,#stageCraft#WTM{
 		max-width:110px;
 		margin-left: 220px;
 		margin-top: -10px;
 
 	}
-
+*/
 	
 
 	#mu-hero{
