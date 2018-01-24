@@ -362,7 +362,7 @@ button:focus {
 }
 
 #mu-hero {
-	background-image: url("./assets/images/home2.png");
+	background-image: url("./assets/images/home2.gif");
 	background-position: cover;
 	display: inline;
 	float: left;
@@ -1860,8 +1860,6 @@ button:focus {
 		width: 100%;
 	}
 	.secretaries .mu-single-speakers img{
-		height: 180px;
-		width: 180px;
 	}
 
 	.mu-developer-area {
@@ -2038,7 +2036,10 @@ button:focus {
 	}
 
 	
-
+	.secretaries  img{
+		max-width: 310px;
+		
+	}
 						
 	
 }
@@ -2510,7 +2511,7 @@ img::-moz-selection {
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1100px) {
 	/*applies only if the screen is less than 500px*/
 	.team-fool {
 		background-image: none !important;
@@ -3421,6 +3422,7 @@ section{
 
 	.mu-event-timeline ul li {
 		margin-left: 5%;
+
 	}
 
 	.mu-event-timeline ul li .mu-single-event,
@@ -3448,9 +3450,7 @@ section{
 		font-size: 14px;
 	}
 
-	 .mu-single-event span{
 
-	}
 
 	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM{
 		max-width: 110px;
@@ -3469,7 +3469,7 @@ section{
 	
 
 	#mu-hero{
-		background-image: url("assets/images/home2.png");
+		background-image: url("assets/images/home2.gif");
 	}
 
 
