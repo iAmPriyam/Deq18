@@ -1819,6 +1819,12 @@ button:focus {
 
 	.mu-developer-area {
 		padding: 5% 5%;
+		overflow-y: scroll;
+		
+	}
+	.mu-developer-segment{
+		width: 100%;
+		float: left;
 	}
 
 	.mu-developer-area iframe {
@@ -1833,6 +1839,8 @@ button:focus {
 	.mu-contact-content {
 		padding: 0 10%;
 	}
+
+	
 				
 
 }
@@ -3415,7 +3423,7 @@ section{
 	
 
 	#mu-hero{
-		background-image: url("assets/images/home2.jpg");
+		background-image: url("assets/images/home2.gif");
 	}
 
 
