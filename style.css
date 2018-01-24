@@ -362,7 +362,7 @@ button:focus {
 }
 
 #mu-hero {
-	background-image: url("./assets/images/home2.webp");
+	background-image: url("./assets/images/home2.png");
 	background-position: cover;
 	display: inline;
 	float: left;
@@ -1604,6 +1604,10 @@ button:focus {
 		right: 5%;
 		margin-top: 0;
 	}	
+	.mu-developer-close-btn{
+		right: 5%;
+		top: 30px;
+	}
 }
 
 @media (max-width: 991px) {	
@@ -1840,7 +1844,7 @@ button:focus {
 		padding: 0 10%;
 	}
 
-	
+
 				
 
 }
@@ -3423,7 +3427,7 @@ section{
 	
 
 	#mu-hero{
-		background-image: url("assets/images/home2.gif");
+		background-image: url("assets/images/home2.png");
 	}
 
 
