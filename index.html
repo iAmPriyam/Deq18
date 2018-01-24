@@ -248,6 +248,37 @@ Pronites being the soul of our Fest, a soul vibrant and contagious, surprising t
 								    				<p class="mu-event-time">Music</p>
 								    				<h3>Raga</h3>
 								    				<span class = "mu-content">Where words fail , music speaks . Captivating vocals , mellifluous keyboard , breathtaking guitars , and spell-binding drums all put together to a gob smacked evening. </span>
+								    					<br>
+								    				<button class = "mu-rule-button" onclick="ragaRules()"> Rules </button>
+								    				<div class = "mu-event-rules" id="ragaRules" style="display: none">
+								    				<span class = "mu-rule-content" >
+								    					<br><br> &#11044; Time limit- Prelims: 15 mins (inclusive of sound check)
+														<br><br> &#11044; Finals: 25 mins (inclusive of sound check)
+														<br><br> &#11044; At least 1 vocalist and at least 3 different instruments
+														required (different guitars counted individually), and 1
+														percussion instrument compulsory.
+														<br><br> &#11044; Bands can perform any song(s) of their choice, cover or an
+														original composition.
+														<br><br> &#11044; Top 3 Bands selected for the finals would qualify for the
+														finals.
+														<br><br> &#11044; Judging Criteria: Quality of vocals, Quality of instrumental
+														music, Tightness, Synchronization, Choice of song, Overall
+														performance as a band.
+														<br><br> &#11044; Purely classical numbers are not allowed. However, a classical
+														refrain is allowed.
+														<br><br> &#11044; Obscenity (at the discretion of the judges) of any kind is not
+														allowed and will lead to immediate disqualification.
+														<br><br> &#11044; Time Limit should be strictly followed. Participants will be
+														penalized by judges for not doing so.
+														<br><br> &#11044; No person may perform in more than 2 bands.
+														<br><br> &#11044; The decision of the organizers with respect to line-up would
+														be final.
+														<br><br> &#11044; The decision of the judges will be final and binding.
+								    				</span>
+								    				<br>
+								    				<button class = "mu-rule-close-button" onclick="ragaRules()"> Collapse Rules </button>
+								    				</div>
+
 								    			</div>
 								    		</li>
 								    		<li>
@@ -257,6 +288,34 @@ Pronites being the soul of our Fest, a soul vibrant and contagious, surprising t
 								    				<p class="mu-event-time">Music</p>
 								    				<h3>Dropping Notes</h3>
 								    				<span class = "mu-content">A platform for the euphonic voices, comprising Solo Singing and Duet Singing. </span>
+								    					<br>
+								    				<button class = "mu-rule-button" onclick="droppingRules()"> Rules </button>
+								    				<div class = "mu-event-rules" id="droppingRules" style="display: none">
+								    				<span class = "mu-rule-content" >
+								    					<br><br>
+								    					<h1> Solo </h1>
+								    					 Time Limit: 4mins
+														<br><br> &#11044; Pure Classical tracks are not allowed.
+														<br><br> &#11044; Lyrics can be either in Hindi or in English (or a combination of
+														the two).
+														<br><br> &#11044; Rap of any kind is not allowed.
+														<br><br> &#11044; The decision of the judges shall be final and binding.
+														<br><br> &#11044; Time limit should be strictly followed. Participants will be
+														penalized by judges for not doing so.<br><br>
+
+														<h1> Duet </h1>
+														Time Limit: 4mins
+														<br><br> &#11044; Pure Classical tracks are not allowed.
+														<br><br> &#11044; Lyrics can be either in Hindi or in English (or a combination of
+														the two).
+														<br><br> &#11044; Rap of any kind is not allowed.
+														<br><br> &#11044; The decision of the judges shall be final and binding.
+														<br><br> &#11044; Time limit should be strictly followed. Participants will be
+														penalized by judges for not doing so.<br><br>
+								    				</span>
+								    				<br>
+								    				<button class = "mu-rule-close-button" onclick="droppingRules()"> Collapse Rules </button>
+								    				</div>
 								    			</div>
 								    		</li>
 								    		<li>
@@ -1211,7 +1270,25 @@ $('#contact-submit').on('click', function(e){
 
 </script>
 -->
+<script>
+	function ragaRules(){
+	var x = document.getElementById("ragaRules");
+	if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 
+function droppingRules(){
+	var y = document.getElementById("droppingRules");
+	if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
+}
+</script>
 
 	
 	
