@@ -915,7 +915,6 @@ button:focus {
 	margin-left: 0px;
 	margin-right: 0px;
 	background-color: transparent;
-	font-color: #f2f2f2;
 	font-size: 20px;
 	font-family: "neouthin";
 	width: auto;
@@ -928,12 +927,14 @@ button:focus {
 .mu-rule-button:focus,
 .mu-rule-close-button:hover,
 .mu-rule-close-button:focus{
-	background-color: #ff0000;
+	background-color: #ffffff;
+	color: #ff0000;
 	border-radius: 5px;
 }
 .mu-rule-content{
 	font-family: "comfortaaregular";
 	color: #ff0202;
+fo
 }
 
 .mu-rule-content h1{
