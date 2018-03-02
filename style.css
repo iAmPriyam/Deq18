@@ -1426,6 +1426,9 @@ fo
 	width: 100%;
 }
 
+.mu-sponsors-single img{
+	padding: 2% 3% 3% 3%;
+}
 
 /*--------------------*/
 /* FAQ */
