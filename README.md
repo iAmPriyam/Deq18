@@ -11,4 +11,4 @@ We look forward to have an enriching experience with all the participants. We ca
 
 #Project maintainers : Aditya Priyam & Adarsh Kumar
 
-#Project Website : https://iampriyam.github.io/Deq18/
+#Project Website :https://iampriyam.github.io/Dequinox18/
